@@ -1,2 +1,5 @@
 discord
 git+https://github.com/Rapptz/discord.py
+flask
+python-dotenv
+dnspython

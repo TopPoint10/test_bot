@@ -1,6 +1,7 @@
 import discord
 from discord.ext import commands
 import os
+import server
 
 TOKEN = os.environ['TOKEN']
 
@@ -15,5 +16,5 @@ async def ping(ctx):
   await ctx.send(f"Pong! in `{round(bot.latency * 1000)}`")
 
 
-
-@bot.run(TOKEN)
+server.server()
+bot.run(TOKEN)
