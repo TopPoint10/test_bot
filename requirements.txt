@@ -3,3 +3,4 @@ git+https://github.com/Rapptz/discord.py
 flask
 python-dotenv
 dnspython
+git+https://github.com/Gorialis/jishaku

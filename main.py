@@ -15,6 +15,6 @@ async def on_ready():
 async def ping(ctx):
   await ctx.send(f"Pong! in `{round(bot.latency * 1000)}`")
 
-
+bot.load_extension('jishaku')
 server.server()
 bot.run(TOKEN)
